@@ -50,11 +50,11 @@ leetcode链接：[134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/pro
 
 2. 假设从加油站 x 出发，每经过一个加油站就加一次油（包括起始加油站），最后一个可以到达的加油站是 y（不妨设 x<y）。这就说明第一个式子表明无法到达加油站 y 的下一个加油站，第二个式子表明可以到达 y 以及 *y* 之前的所有加油站。
 
-![fig-134-1](C:\Users\Wislab\Desktop\leetcode算法分析\assets\fig-134-1.png)
+![fig-134-1](./assets/fig-134-1.png)
 
 3. 现在，考虑任意一个位于 x,y 之间的加油站 z（包括 x 和 y），我们现在考察从该加油站出发，能否到达加油站 y 的下一个加油站。
 
-![fig-134-2](C:\Users\Wislab\Desktop\leetcode算法分析\assets\fig-134-2.png)
+![fig-134-2](./assets/fig-134-2.png)
 
 
 
